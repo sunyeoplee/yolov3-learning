@@ -1,15 +1,15 @@
 # yolov3-learning
 ## Installation
-1. Anaconda
-2. install libraries
+1. Python 3.7
+2. Anaconda
+3. install libraries
 ```linux
-# install tensorflow
 pip install --upgrade pip --user
-pip install --upgrade tensorflow==2.3.1
-# install pillow (PIL)
+conda install tensorflow==2.0
+conda install -c conda-forge opencv
 conda install pillow
-# install ipython (IPython)
 conda install ipython
+conda install seaborn
 
 # if numpy isn't working
 pip uninstall -y numpy
